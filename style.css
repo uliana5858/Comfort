@@ -1,0 +1,425 @@
+*
+{
+     margin: 0;
+     padding: 0;   
+     font-family: "Inria Serif"; 
+     font-family: 'Inria Serif', serif;               
+     letter-spacing: -0.1em; 
+     font-size: 23px;  
+   }
+
+.header { 
+background-image: url(img/1_Ocean_coast_with_azure_water_and_white_sand_0.jpeg);  
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;        
+}
+
+.header_page2 {
+ background-image: url(img/Luna_Ocean_coast_with_azure_water_and_white_sand_2.jpeg);  
+ background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;                           
+}
+
+.header_page3 {
+ background-image: url(img/Luna_Ocean_coast_with_azure_water_and_white_sand_2.jpeg);  
+background-size: cover;
+background-repeat: no-repeat;
+ min-height: 100vh; 
+ letter-spacing: -0.1em;                       
+ }
+
+ .header_page4 {
+ background-image: url(img/Luna_Ocean_coast_with_azure_water_and_white_sand_1.jpeg);  
+background-size: cover;
+background-repeat: no-repeat;
+ min-height: 100vh; 
+ letter-spacing: -0.1em;   
+ }
+
+ .main_word {
+ font-size: 17px;
+  color:rgb(249, 238, 225);                 
+padding: 40px;                 
+ display: flex;
+ justify-content: flex-start;
+text-decoration: none;
+letter-spacing: -0.2m;
+ }
+
+ .main_word:hover {
+   letter-spacing: -0.1em;   
+  color: #f25f0a;
+ text-decoration:underline;
+ }
+
+ .main_page_paragraph {
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 40px;
+font-size: 14px;
+color:rgb(5, 5, 134);
+letter-spacing: 0.1em;   
+margin-bottom: 100px;
+ }
+
+
+
+
+/* servis.html */
+
+.title_fotograph {                     
+display: flex;
+justify-content: center;
+color: rgb(249, 238, 225);
+}
+
+.photo-grid {
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.photo {
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 80%;
+border-radius: 20px;
+margin: 40px;
+}
+
+
+.photo_paragraph1 {
+   color:white;
+   display:flex;
+   align-items:center;
+   text-align:center;
+   margin: 80px;                      
+}
+
+
+.photo_paragraph {
+   color:rgb(5, 5, 134);
+   display:flex;
+   align-items:center;
+   text-align:center;
+   margin: 80px;                      
+}
+
+.menu {      
+   display: flex;
+   justify-content: space-around;       
+   font-family: sans-serif;  
+   gap: 120px;  
+   align-items:center;
+   
+}
+
+.menu_info {
+margin:40px;                  
+color: rgb(241, 240, 238);
+text-decoration: none;
+}
+
+.menu_info1 {
+   margin:40px;                  
+   color: rgb(65, 38, 4);
+   text-decoration: none;
+   }
+
+.menu_info:hover {
+  color: #f25f0a;
+  text-decoration:underline;
+}
+ 
+
+.main_title {
+ color: rgb(238, 224, 212);
+ font-size: 30px;
+ }
+
+.main_paragraph {
+ margin-top: 30px;
+color: #081872;
+}
+
+
+.container {  
+display: flex;   
+justify-content: space-around;
+padding: 20px;  
+padding-bottom: 120px;             
+}
+
+.left_container {
+   width: 30%;
+  margin-top: 80px;                     
+     font-size: 15px;                 
+}
+
+.right_container {
+ width: 30%;
+ /* width: 0 auto; */
+ right: 50px;
+color: rgb(9, 7, 114);     
+margin: 30px;  
+margin-top: 80px;  
+font-size: 15px;                 
+
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+padding: 20px; 
+background: rgb(249, 238, 225);
+    width: auto; 
+    height: auto;  
+   
+}  
+
+.tea {
+   margin: 20px;
+     color: #081872;              
+   display: flex;
+   justify-content: center;  
+   text-align: center;                   
+   padding-bottom: 30px;    
+   font-size: 10px;                  
+}
+
+
+/* contact.html */
+.contact {
+   margin: 60px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color: #0c2bb6;
+   letter-spacing: -0.1em;  
+   padding-bottom:80px;
+  
+}
+
+
+.title_contact {
+   /* padding: 40px;   */
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: aqua;
+font-size: 46px; 
+letter-spacing: 0.1em;   
+}
+
+/* about us */
+.about_title1 {
+  
+   margin:60px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color: rgb(4, 86, 179);
+   
+   padding-bottom: 20px;
+}
+
+.about_title2 {
+   margin:60px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color: rgb(11, 93, 207);
+   padding-bottom: 20px;
+}
+
+.about_title3 {
+   margin:60px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color: rgb(10, 115, 235);
+   padding-bottom: 60px;
+}
+
+.PG {
+   color: #081654;
+}
+
+.massage {
+   display: flex; 
+}    
+
+
+.title_massage {
+   margin: 10px;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center; 
+width: 100%;
+color:rgb(5, 5, 134);
+letter-spacing: 1.7em;
+font-size: 22px;
+}
+
+ .nyanya {
+    display: flex; 
+ }                    
+
+
+ .title_nyanya {
+   margin: 20px;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center; 
+width: 100%;
+color:rgb(5, 5, 134);
+letter-spacing: 1.7em;
+font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .header {
+ background-attachment: scroll;
+  }                    
+ .photo-grid{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.menu {
+   margin: 30px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.container {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.main_title {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.title_contact {
+margin-top: 60px;
+margin-bottom: 60px;
+}
+
+.right_container {
+margin: 50px;
+display: flex;
+justify-content: center;
+}
+.main_word {
+   display: flex;
+   text-align: center;
+   /* justify-content: center; */
+}
+.about_title1 {
+   margin: 30px;
+   font-size: 30px;
+}
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+   .photo {
+       max-width: 50%; /* Adjust image size to fit the screen width */
+       height: 50%; /* Maintain aspect ratio */
+   }
+
+   .photo_paragraph1,
+   .photo_paragraph {
+       margin-top: 10px; /* Add space between images and paragraphs */
+   }
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+.header {
+   background-attachment: scroll;
+    }                    
+   .photo-grid{
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+  }
+  .menu {
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+  }
+}
+
+
+  
